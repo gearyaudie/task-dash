@@ -1,0 +1,106 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+}
+
+.no-task {
+  color: #b3b3b3;
+}
+
+.nav-logout:hover {
+  color: #282c34;
+}
+
+.navbar-title {
+  padding-left: 25px;
+}
+
+.btn-toggle-completion,
+.btn-delete-task {
+  background: transparent;
+  border: 1px solid #b3b3b3;
+  border-radius: 4px;
+  color: #7d7d7d;
+  width: 25%;
+  padding: 5px;
+  margin: 20px;
+}
+
+.btn-toggle-completion:hover,
+.btn-custom-add:hover {
+  border: 1px solid #8f9de3;
+}
+
+.btn-danger-custom {
+  margin-left: 15px;
+}
+
+.btn-custom-add {
+  color: #7d7d7d;
+  border: 1px solid #b3b3b3;
+}
+
+.custom-search {
+  width: 50%;
+}
+
+.title-link-none {
+  color: #282c34;
+  text-decoration: none;
+}
+
+.custom-container-edit {
+  display: inline-block;
+}
+
+.input-custom {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-login {
+  margin: 20px auto;
+  color: #7d7d7d;
+  text-align: center;
+}
+
+.text-auth-info {
+  color: #7d7d7d;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px;
+}
+.login-custom-container {
+  max-width: 450px;
+}
+
+.auth-link {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.nav-logout {
+  border: none;
+  color: #9c9c9c;
+  background-color: inherit;
+}
+
+.task-title {
+  color: #7d7d7d;
+  font-size: 30px;
+}
+
+.card-completed {
+  text-decoration: line-through;
+}
+
+.task-title:hover,
+.card-completed:hover {
+  color: #0275d8;
+}
